@@ -40,7 +40,7 @@ ScenariuPatru = (alegereJucator != alegereOponent1 and alegereOponent1 == aleger
 if ScenariuUnu:
     MicMare = ["mai mare", "mai mic"]
     NumarRandom1 = random.randint(1, 20)
-    print(f"\n\n\n\n\n\n\n\n\n{cyan} >> Numărul inițial este: ", NumarRandom1)
+    print(f"\n\n\n\n\n\n\n\n\n{cyan} >> Numărul inițial este: {NumarRandom1}.")
     print(">> Din intervalul (1, 20):")
     NumarRandom2 = random.randint(1, 20)
     alegereOponent1_1 = random.choice(MicMare)
